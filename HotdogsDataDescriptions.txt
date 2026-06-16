@@ -1,0 +1,21 @@
+
+In the Pitches file, the column headers are:
+1.	Vendor ID
+2.	Vendor name
+3.	Year and Week
+4.	Number of vegan hotdogs
+5.	Number of meat hotdogs
+6.	Onions (Kg)
+7.	Ketchup (Litres)
+The validation rules for each field are:
+Field	Validation
+Vendor ID	Must be upper case
+Must be two letters, an underscore, and three digits
+Vendor name	Must be between 2 and 25 characters long
+Year and Week	Must be the format of YYYYWW
+WW must be between 1 and 52, inclusive
+Number of vegan hotdogs	Must be divisible by 10
+Number of meat hotdogs	Must be divisible by 10
+Onions (Kg)	Must be a decimal number, in half kilogram increments
+Ketchup (Litres)	Must be an integer between 1 and 4
+
