@@ -7,7 +7,6 @@ from typing import Any, Dict, List
 VENDOR_ID_PATTERN = re.compile(r"^[A-Z]{2}_[0-9]{3}$")
 YEAR_WEEK_PATTERN = re.compile(r"^[0-9]{6}$")
 
-
 def validate_row(row: Dict[str, Any]) -> List[str]:
     errors: List[str] = []
 
